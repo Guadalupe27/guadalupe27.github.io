@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <!--------------------------MENU DE NAVEGACION--------------------------------------------->
+    <div class="menu container">
+      <img src="images/logofondo.png" alt="Logo Papeleria" class="logo">
+      <input type="checkbox" id="menu">
+      <label for="menu">
+        <img src="images/menu.png" class="menu-icono" alt="menu">
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cuadernos.html">Cuadernos</a></li>
+          <li><a href="colores.html">Colores y Plumones</a></li>
+          <li><a href="escritura.html">Escritura</a></li>
+          <li><a href="#">Arte y Manualidades</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <ul>
+          <li class="submenu">
+            <img src="images/car.svg" id="img-carrito" alt="carrito">
+            <div id="carrito">
+              <table id="lista-carrito">
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--------------------------------------------PORTADA---------------------------------------------------------------->
+    <div class="header-content container">
+      <div class="header-img">
+        <img
+          src="https://img.freepik.com/fotos-premium/nino-cerca-haciendo-actividades-creativas_23-2149043847.jpg?w=996"
+          alt="portada">
+      </div>
+      <div class="header-txt">
+        <h1>La creatividad es la inteligencia divirtiendose</h1>
+        <p>Todos nuestros productos cuentan con la mas alta calidad y a un precio muy accesible</p>
+        <!--<a href="#" class="btn-1">Infomacion</a>-->
+      </div>
+     
+    </div>
+
+  </header>
+
+  <!---------------------------------------------------PRODUCTOS-------------------------------------------------------->
+  <main class="products container" id="lista-1">
+
+    <h2>Arte y Manualidades</h2>
+
+    <div class="product-content">
+
+      <div class="product">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/228240-800-auto?v=638447634467500000&width=800&height=auto&aspect=true"
+          alt="diamantina">
+        <div class="product-txt">
+          <h3>Bolsita de Diamantina</h3>
+          <p>Diamantina Fina de 2.5g </p>
+          <p class="precio">$2.5</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/261079-800-auto?v=638447663591600000&width=800&height=auto&aspect=true"
+          alt="pincel">
+        <div class="product-txt">
+          <h3>Pincel Escolar</h3>
+          <p>Pincel N.1 Smarty por pieza</p>
+          <p class="precio">$6</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/257599-800-auto?v=638447662474630000&width=800&height=auto&aspect=true"
+          alt="foamy">
+        <div class="product-txt">
+          <h3>Foamy de colores</h3>
+          <p>Hoja de Foamy normal por pieza</p>
+          <p class="precio">$5</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/257382-800-auto?v=638447662415270000&width=800&height=auto&aspect=true"
+          alt="Foamy diamantado">
+        <div class="product-txt">
+          <h3>Foamy Diamantado</h3>
+          <p>Foamy Diamantado Negro por pieza</p>
+          <p class="precio">$7</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/265616-800-auto?v=638447665175830000&width=800&height=auto&aspect=true"
+          alt="tijeras">
+        <div class="product-txt">
+          <h3>Tijeras de Ondas</h3>
+          <p>Tijera para Manualidades Ondas Cortas Blíster Smarty</p>
+          <p class="precio">$40</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/252528-800-auto?v=638447661140930000&width=800&height=auto&aspect=true" alt="limpia pipa">
+        <div class="product-txt">
+          <h3>Limpia Pipas de colores</h3>
+          <p>Limpiapipas Colores Neón Bolsa con 30 Piezas Smarty</p>
+          <p class="precio">$20</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!--------------------------------------------PIE DE PAGINA------------------------------------------------------------->
+  <footer class="footer">
+
+    <div class="footer-content container">
+
+      <div class="link">
+        <h3>CONTACTA CON NOSOTROS</h3>
+        <ul>
+          <li><a href="https://wa.link/dlc60f"> <img src="images/logoWS.png" alt="whatsapp" width="50px"></a>+52
+            276-110-9156</li>
+        </ul>
+      </div>
+
+      <div class="link">
+        <h3>ACEPTAMOS TODOS LOS MEDIOS DE PAGO</h3>
+        <ul>
+          <li><a href="#"><img src="images/mediosp.png" alt="visa" width="350px"></a></li>
+        </ul>
+      </div>
+
+      <div class="link">
+        <h3>CONTAMOS CON MERCADO-PAGO</h3>
+        <ul>
+          <li><a href="#"><img src="images/mercadoP.png" alt="visa" width="100%"></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="scrip.js"></script>
+</body>
+
+</html>

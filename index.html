@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papeleria Mary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <!--------------------------MENU DE NAVEGACION--------------------------------------------->
+    <div class="menu container">
+      <img src="images/logofondo.png" alt="Logo Papeleria" class="logo">
+      <input type="checkbox" id="menu">
+      <label for="menu">
+        <img src="images/menu.png" class="menu-icono" alt="menu">
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="cuadernos.html">Cuadernos</a></li>
+          <li><a href="colores.html">Colores y Plumones</a></li>
+          <li><a href="escritura.html">Escritura</a></li>
+          <li><a href="arte.html">Arte y Manualidades</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <ul>
+          <li class="submenu">
+            <img src="images/car.svg" id="img-carrito" alt="carrito">
+            <div id="carrito">
+              <table id="lista-carrito">
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--------------------------------------------PORTADA---------------------------------------------------------------->
+    <div class="header-content container">
+      <div class="header-img">
+        <img
+          src="https://th.bing.com/th/id/R.d475d165db328614b132c1787656022b?rik=DEp6jSf%2bpDMxOg&riu=http%3a%2f%2fwww.graciacomerc.com%2fmedia%2fCategorias%2fpapeleria.jpg&ehk=IGp51QiN0Ch6rTY8nH0BFAVJoNIU5p4IzrRNVfr7eyQ%3d&risl=&pid=ImgRaw&r=0"
+          alt="portada">
+      </div>
+      <div class="header-txt">
+        <h1>Conoce nuestros nuevos productos</h1>
+        <p>Todos nuestros productos cuentan con la mas alta calidad y a un precio muy accesible</p>
+        <!--<a href="#" class="btn-1">Infomacion</a>-->
+      </div>
+     
+    </div>
+
+  </header>
+  
+  <!------------------------------------------OFERTAS---------------------------------------------------------------->
+  <h2 class="ofer">Ofertas</h2>
+  <section class="ofert container">
+    <div class="ofert-1">
+      <div class="ofert-img">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/228636-800-auto?v=638447637028000000&width=800&height=auto&aspect=true"
+          alt="Hojas carta">
+      </div>
+      <div class="ofert-txt">
+        <h3>Hojas Ecológico Scribe</h3>
+        <p>Papel bond blanco tamaño carta con 500 hojas</p>
+        <p class="precio">$100</p>
+      </div>
+    </div>
+
+    <div class="ofert-1">
+      <div class="ofert-img">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/230951-800-auto?v=638447642818100000&width=800&height=auto&aspect=true"
+          alt="colores prismacolor">
+      </div>
+      <div class="ofert-txt">
+        <h3>Colores Prismacolor</h3>
+        <p>Caja con 24 piezas en tonos pastel</p>
+        <p class="precio">$153.75</p>
+      </div>
+    </div>
+
+    <div class="ofert-1">
+      <div class="ofert-img">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/228650-800-auto?v=638447637078330000&width=800&height=auto&aspect=true"
+          alt="hoja smart">
+      </div>
+      <div class="ofert-txt">
+        <h3>Hojas Smart Multifuncional</h3>
+        <p>Papel bond blanco tamaño carta con 500 hojas</p>
+        <p class="precio">$100</p>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------------------------PRODUCTOS DESTACADOS--------------------------------------------------->
+  <main class="products container" id="lista-1">
+
+    <h2>Productos Destacados</h2>
+
+    <div class="product-content">
+
+      <div class="product">
+        <img
+          src="https://cdn1.totalcommerce.cloud/normamx/product-zoom/es/plumones-set-de-caligrafia-norma-26-unidades-1.webp"
+          alt="plumones 26pza">
+        <div class="product-txt">
+          <h3>Plumon Norma</h3>
+          <p>Set de caligrafia 26 unidades</p>
+          <p class="precio">$180</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://cdn1.totalcommerce.cloud/normamx/product-zoom/es/cuaderno-argollado-profesional-cuadro-grande-click-urbano-portal-100-hojas-1.webp"
+          alt="cuaderno norma">
+        <div class="product-txt">
+          <h3>Cuaderno Profesional Norma</h3>
+          <p>100 hojas cuadro del 7</p>
+          <p class="precio">$200</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://cdn1.totalcommerce.cloud/normamx/product-zoom/es/block-creatividad-papel-bond-colores-norma-80-hojas-3.webp"
+          alt="barra silicon">
+        <div class="product-txt">
+          <h3>Block Creatividad</h3>
+          <p>Papel Bond Colores Norma 80 Hojas</p>
+          <p class="precio">$70</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/252504-800-auto?v=638447661134400000&width=800&height=auto&aspect=true"
+          alt="pistola">
+        <div class="product-txt">
+          <h3>Pistola para Silicón Chica</h3>
+          <p>Color Ngra Blíster Swing para barras de silicon delgadas</p>
+          <p class="precio">$80</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://tonypapelerias.vtexassets.com/arquivos/ids/227794-800-auto?v=638447629423300000&width=800&height=auto&aspect=true"
+          alt="vinci negra">
+        <div class="product-txt">
+          <h3>Pintura Vinci Negra</h3>
+          <p>Frasco con 25ml ideal para carteles</p>
+          <p class="precio">$13</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="https://superpapelera.com.mx/wp-content/uploads/2023/05/5402005-990x990.webp" alt="adhesivo 21g">
+        <div class="product-txt">
+          <h3>Lapiz Adhesivo DIXON</h3>
+          <p>Presentacion de 21g</p>
+          <p class="precio">$22</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+  <!--------------------------------------------INFORMACION ADICiONAL------------------------------------------------------>
+  <section class="blog container">
+    <div class="blog-1">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665.9516354005158!2d-97.79198966396142!3d19.230491145720237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cff80c1ef2f511%3A0x6da4a3426bb961c3!2sN%20Regules%2020C%2C%20Ignacio%20Zaragoza%2C%2075000%20Cdad.%20de%20Rafael%20Lara%20Grajales%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1708287483906!5m2!1ses-419!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="blog-2">
+      <h3>NOS UBICAMOS EN</h3>
+      <p>Rafael Lara Grajales, Puebla</p>
+      <p>Col. Ignacio Zaragoza, calle Nicolas Regules No.20</p>
+      <p>CP.75000</p>
+    </div>
+  </section>
+
+  <!--------------------------------------------PIE DE PAGINA------------------------------------------------------------->
+  <footer class="footer">
+
+    <div class="footer-content container">
+
+      <div class="link">
+        <h3>CONTACTA CON NOSOTROS</h3>
+        <ul>
+          <li><a href="https://wa.link/dlc60f"> <img src="images/logoWS.png" alt="whatsapp" width="50px"></a>+52
+            276-110-9156</li>
+        </ul>
+      </div>
+
+      <div class="link">
+        <h3>ACEPTAMOS TODOS LOS MEDIOS DE PAGO</h3>
+        <ul>
+          <li><a href="#"><img src="images/mediosp.png" alt="visa" width="350px"></a></li>
+        </ul>
+      </div>
+
+      <div class="link">
+        <h3>CONTAMOS CON MERCADO-PAGO</h3>
+        <ul>
+          <li><a href="#"><img src="images/mercadoP.png" alt="visa" width="100%"></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="scrip.js"></script>
+</body>
+
+</html>
